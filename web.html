@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CoFFee ShOp</title>
+    <link rel="stylesheet" href="web.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/web.css/4.1.1/web.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/web.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Milktea Hut Logo" class="animate__animated animate__fadeInDown">
+        </div>
+        <h1>Jerevin Shop</h1>
+        <nav class="nav-menu">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cta">
+            <a href="#order" class="btn-order">Order Online</a>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="brand-name">
+            <h2>Jerevin's Shop</h2>
+        </div>
+        <div class="hero-logo">
+            <div class="oval">
+                <img src="pusa.gif" alt="Milktea Hut Hero Logo" class="animate__animated animate__bounceInLeft">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInRight">Jerevin's CoFFee ShOp </h1>
+            <p class="animate__animated animate__fadeInRight animate__delay-1s">Calm and refresh</p>
+            <div class="hero-buttons">
+                <a href="#order" class="btn-primary animate__animated animate__fadeInUp animate__delay-2s">order now</a>
+                <a href="#menu" class="btn-secondary animate__animated animate__fadeInUp animate__delay-2s">Choose Flavor</a>
+            </div>
+        </div>
+    </section>
+    
+    <section id="menu" class="menu-section">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInDown">Our Menu</h2>
+            <div class="menu-grid">
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="1.jpeg" alt="Classic Milk Tea">
+                    <h3>Classic Milk Tea</h3>
+                    <p>Smooth and creamy, our classic milk tea is a timeless favorite.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="2.jpeg" alt="Green Tea Latte">
+                    <h3>Green Tea Latte</h3>
+                    <p>Rich and flavorful, with the perfect balance of green tea and milk.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="3.jpeg" alt="Fruit Tea">
+                    <h3>Fruit Tea</h3>
+                    <p>Refreshing and fruity, perfect for a hot day.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="4.jpeg" alt="Taro Bubble Tea">
+                    <h3>Taro Bubble Tea</h3>
+                    <p>Sweet and satisfying, with a unique taro flavor.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="5.jpeg" alt="Honeydew Milk Tea">
+                    <h3>Honeydew Milk Tea</h3>
+                    <p>Light and refreshing, with the sweet taste of honeydew melon.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="6.jpeg" alt="Thai Iced Tea">
+                    <h3>Thai Iced Tea</h3>
+                    <p>Aromatic and flavorful, a perfect blend of spices and sweetness.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="7.jpeg" alt="Matcha Latte">
+                    <h3>Matcha Latte</h3>
+                    <p>Earthy and smooth, made with high-quality matcha powder.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="8.jpeg" alt="Brown Sugar Milk Tea">
+                    <h3>Brown Sugar Milk Tea</h3>
+                    <p>Sweet and rich, with caramel notes from brown sugar syrup.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="9.jpeg" alt="Wintermelon Milk Tea">
+                    <h3>Wintermelon Milk Tea</h3>
+                    <p>A unique and refreshing flavor, perfect for any season.</p>
+                </div>
+                <div class="menu-item animate__animated animate__zoomIn animate__delay-4s">
+                    <img src="10.jpeg" alt="Strawberry Milk Tea">
+                    <h3>Strawberry Milk Tea</h3>
+                    <p>Fruity and creamy, with the sweet taste of strawberries.</p>
+                </div>
+            </div>
+            <div class="prices-container">
+                <div class="price animate__animated animate__zoomIn animate__delay-4s">
+                    <h4>Prices</h4>
+                    <p>SMALL — PHP 49</p>
+                    <p>MEDIUM — PHP 69</p>
+                    <p>LARGE — PHP 89</p>
+                    <p>EXTRA LARGE — PHP 99</p>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-us-section">
+        <div class="about-us-logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <div class="about-us-content">
+            <h2 class="section-title">About Us</h2>
+            <p>Jerevin Coffee Shop, where we specialize in delivering the perfect cup of coffee right to your door. Our dedication to quality ensures that we use only the finest ingredients, making every sip a harmonious blend of flavors. Whether you crave the classic richness of traditional coffee or the adventurous twist of our specialty blends, Jerevin Coffee Shop is your go-to destination for all things coffee.
+
+At Jerevin Coffee Shop, we're more than just a coffee shop – we're a community of coffee enthusiasts united by our love for this beloved beverage. Our mission is to bring joy to every coffee lover with a diverse menu that caters to a wide range of tastes. From bold, robust options to refreshing light roasts, there’s something for everyone at Jerevin Coffee Shop. We believe that the perfect cup of coffee can brighten your day, and we are committed to making that happen with every order.
+
+Customer satisfaction is at the heart of everything we do. We continually strive to enhance our offerings, refine our recipes, and deliver exceptional service. Our team is always on the lookout for new trends and innovative ingredients to keep our menu exciting and fresh. Experience the Jerevin Coffee Shop difference today and discover why our customers keep coming back for more. Cheers to many more flavorful.</p>
+        </div>
+    </section>
+
+<section id="portfolio" class="portfolio-section" style="background-image: url('bg.jpg');">
+    <div class="container">
+        <h2 class="section-title animate__animated animate__fadeInDown">Portfolio</h2>
+        <div class="portfolio-links">
+            <div class="project-box">
+                <a href="http://heyitsmefarid.great-site.net/mywebpage.html" target="_blank">Project 1</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/gallanofredanthony/index.html" target="_blank">Project 2</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/quiz/quizhtml.html" target="_blank">Project 3</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/calcfunction/calculator.html" target="_blank">Project 4</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/coffee/coffee.html" target="_blank">Project 5</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/list/list.html" target="_blank">Project 6</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/profile/profile.html" target="_blank">Project 7</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/textalign/textali.html" target="_blank">Project 8</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act102/tables.html" target="_blank">Project 9</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act101/js.html" target="_blank">Project 10</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act103/COLSPAN.html" target="_blank">Project 11</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act104/DIV5.html" target="_blank">Project 12</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act105/divelem" target="_blank">Project 13</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act106/divvvvv.html" target="_blank">Project 14</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act107/linking.html" target="_blank">Project 15</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act109/text%20alighn.html" target="_blank">Project 16</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act110/onload.html" target="_blank">Project 17</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act108/new div.html" target="_blank">Project 18</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act111/act1.html" target="_blank">Project 19</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act112/act2.html" target="_blank">Project 20</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act113/event.html" target="_blank">Project 21</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act114/home.html" target="_blank">Project 22</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act115/act3.html" target="_blank">Project 23</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act116/act4.html" target="_blank">Project 24</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act117/act5.html" target="_blank">Project 25</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act118/act6.html" target="_blank">Project 26</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act119/act7.html" target="_blank">Project 27</a>
+            </div>
+            <div class="project-box">
+                <a href="https://heyitsmefarid.github.io/act120/act8.html" target="_blank">Project 28</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title animate__animated animate__fadeInDown">Get In Touch</h2>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt logo fa-3x"></i>
+                    <br>
+                    <br>
+                    
+                <p>Managpi, Calapan City</p>
+              
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-phone-alt logo fa-3x"></i>
+                <br>
+                <br>
+                <p>09095970960</p>
+            </div>
+            <div class="contact-item">
+                <i class="fas fa-envelope logo fa-3x"></i>
+                <br>
+                <br>
+                <p>frezelhub@gmail.com</p>
+            </div>
+        </div>
+    </div>
+                <h2 class="section-title animate__animated animate__fadeInDown">Message Us</h2>
+        <form class="contact-form animate__animated animate__fadeInUp">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+        
+        <br>
+        <br>
+        <div class="social-media">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+    </div>
+</section>
+
+    <script src="farid.js"></script>
+</body>
+</html>
