@@ -80,7 +80,7 @@ header.sticky {
 }
 
 .nav-menu a:hover {
-    color: #fff;
+    color: brown;
 }
 
 .cta .btn-order {
@@ -165,7 +165,7 @@ header.sticky {
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background-color: #feb47b;
+    background-color: black;
     padding: 20px;
     text-align: center;
 }
